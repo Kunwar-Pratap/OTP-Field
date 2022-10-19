@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+    --content-font: 'Lato', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: var(--content-font);
+    background-color: #30323e;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+.otp-content {
+    display: flex;
+}
+
+.otp-content input {
+    font-family: var(--content-font);
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-align: center;
+    width: 28px;
+    margin: 5px;
+    padding: 12px;
+    background: #1e2029;
+    color: #fff;
+    border: 1px solid #45434a;
+    border-radius: 6px;
+    outline: none;
+    transition: all 0.1s;
+}
+
+.otp-content input:focus {
+    border: 1px solid #f50093;
+    box-shadow: 0 0 3px 3px #f50093;
+}
+
+.mr {
+    margin-right: 1.2rem !important;
+}
+
+.btn {
+    margin: 32px 11px;
+    padding: 9px 20px;
+    font-size: 17px;
+    text-align: center;
+    outline: none;
+    font-family: var(--content-font);
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.disable {
+    opacity: 0.5;
+}
+
+.bg-y {
+    background-color: #ffd343;
+    color: #4d4d4d;
+}
+
+.bg-y:hover {
+    background-color: #e9c039;
+
+}
+
+.bg-b {
+    color: #fff;
+    background-color: #2b5b84;
+}
+
+.bg-b:hover {
+    background-color: #224c71;
+}
